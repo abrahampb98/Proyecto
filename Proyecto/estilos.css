@@ -1,33 +1,39 @@
 
 * {
     margin: 0px;
-}
-a:visited{
-    color: purple;
-}
-a:hover{
-    color: pink;
-    }
+    padding: 0px;
+    box-sizing: border-box;
 
+}
+
+
+ 
 .container {
     display: grid;
-    grid-template: 150px 1fr 50px / 1fr;
+    grid-template: 40px 1fr 50px / 1fr;
     grid-template-areas: "header" "content" "footer";
     grid-gap: 5px;
     height: 100vh;
 }
 
+
 .centro {
+
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
     align-items: center;
-    justify-content: center;
 }
 
 .header {
-    grid-area: header;
-    background-color: rgb(24, 196, 101);
-    color: white;
+  padding: 20px;
+  grid-area: header;
+  background-color: rgb(24, 196, 101);
+  color: white;
+}
+
+.logo{
+  margin-left: 50px;
 }
 
 .content {
@@ -155,3 +161,6 @@ figure:hover figcaption{
 iframe{
   margin: 50px;
 }
+
+
+
