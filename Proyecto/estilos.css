@@ -45,6 +45,8 @@
     
 }
 .footer {
+  align-items: center;
+  justify-content: center;
     grid-area: footer;
     background-color: rgb(24, 196, 101);
     color: white;
@@ -160,6 +162,30 @@ figure:hover figcaption{
 
 iframe{
   margin: 50px;
+}
+
+.logo{
+  margin-left: 50px;
+}
+.cont-ul{
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -35px;
+  position: absolute;
+
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  padding: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+li:hover{
+  background-color:#1fb2c5 ;
 }
 
 
