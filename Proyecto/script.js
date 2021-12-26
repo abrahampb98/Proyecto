@@ -1,7 +1,7 @@
 function registro(){
     var nombre=document.getElementById('nombres').value;
-    var apellido=document.getElementById('apellido').value;
-    var celular=document.getElementById('telefono').value;
+    var apellido=document.getElementById('apellidos').value;
+    var telefono=document.getElementById('telefono').value;
     var id=document.getElementById('cedula').value;
     var email=document.getElementById('correo').value;
     var domicilio=document.getElementById('direccion').value;
@@ -13,7 +13,7 @@ function registro(){
             alert("Complete todos los datos para poder registrarse")
             document.getElementById("apellidos").focus();
         }else{
-            if ( celular==""){
+            if ( telefono==""){
                 alert("Complete todos los datos para poder registrarse")
                 document.getElementById("telefono").focus();
             }else{
@@ -28,12 +28,19 @@ function registro(){
                         if ( domicilio==""){
                             alert("Complete todos los datos para poder registrarse")
                             document.getElementById("direccion").focus();
+                        }else{
+                                console.log(nombre +" " +apellido +" " + telefono +" " + id+" " + email+" " + domicilio);
+                                document.getElementById("nombres").value="";
+                                document.getElementById("apellidos").value="";
+                                document.getElementById("telefono").value="";
+                                document.getElementById("cedula").value="";
+                                document.getElementById("correo").value="";
+                                document.getElementById("direccion").value="";
+                                alert("Registro exitoso")
                         }
                     }
                 }
             }
         }
     }
-    console.log(nombre+" "+apellido+" "+celular+" "+id+" "+email+" "+domicilio)
-
 }
