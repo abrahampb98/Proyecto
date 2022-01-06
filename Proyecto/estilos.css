@@ -195,5 +195,10 @@ li:hover{
   background-color:#1fb2c5 ;
 }
 
+#map {
+  margin: 15px;
+	height: 500px;
+	width: 1490px;
+}
 
 
