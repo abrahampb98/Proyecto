@@ -17,12 +17,12 @@ body{
     
   }
   .header {
-    padding: 20px;
+    padding: 1px;
     grid-area: header;
-    background-color: rgb(24, 196, 101);
+    background-color: rgb(26, 126, 71);
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    margin: -8px;
+    text-align: center;
   }
   .linksa{
   align-items: center;
@@ -38,61 +38,4 @@ body{
   }
   li:hover{
     background-color:#dd391c ;
-  }
-
-  figure{
-    border: 1px solid transparent;
-    margin: 25px;
-    display: inline-block;
-    position: relative;
-    
-  
-  }
-   figure img{
-    margin-top: 150px;
-    width: 450px;
-    height: 250px;
-    }
-  
-  figcaption{
-    color: white;
-    display: none;
-    background-color:rgba(0, 0, 0, 0.7);
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    padding: 3%;
-  }
-  
-  figure:hover figcaption{
-    display: block;
-  }
-  
-  iframe{
-    margin: 50px;
-  }
-  
-  .logo{
-    margin-left: 50px;
-  }
-  .cont-ul{
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -35px;
-    position: absolute;
-  
-  }
-  
-  li{
-    list-style: none;
-    cursor: pointer;
-    padding: 20px;
-    transition: all 0.3s ease 0s;
-  }
-  
-  li:hover{
-    background-color:#1fb2c5 ;
   }
