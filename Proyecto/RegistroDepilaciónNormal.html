@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>SpaWeb</title>
+    <title>Registro depilación Normal</title>
     <meta charset="utf-8" />
-    <meta name ="viewport" content="width=device-width , initial-scale1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <script type="text/Javascript" src="dynamic.js"></script>
     
-    <link rel="stylesheet" type="text/css" href="estilos3.css" />
+    <link rel="stylesheet" type="text/css" href="estilos3.css"/>
 </head>
 <body>
     
-
+    
     <section class = "container">
         
         <div class="item header centro">
@@ -25,17 +27,41 @@
             
             <section class="form-register">
                 <h4>RESERVA DEPILACIÓN</h4>
-                <label for= "Sucursal">Sucursal:</label>
-                <select name ="sucursal">
-                    <option disabled= "">Selecciona una opción</option>
-                    <option value = "Norte">Norte</option>
-                    <option value = "Sur">Sur</option>
-                    <option value = "Centro">Centro</option>
-                </select>
+
+                        <select name="sucursal" id="sucursal" class="">
+                            <option value= "Norte">Norte</option>
+                            <option value= "Centro">Centro</option>
+                            <option value= "Sur">Sur</option>
+                        </select>
+
+                        <select name ="dia" id="dia" class="">
+                            <option value="lunesmañana">Lunes 9:00 - 13:00</option>
+                            <option value="lunestarde">Lunes 14:00 - 18:00</option>
+                            <option value="lunesnoche">Lunes 18:00 - 21:00</option>
+                            <option value="martesmañana">Martes 9:00 - 13:00</option>
+                            <option value="martestarde">Martes 14:00 - 18:00</option>
+                            <option value="martesnoche">Martes 18:00 - 21:00</option>
+                            <option value="miercolesmañana">Miercoles 9:00 - 13:00</option>
+                            <option value="miercolestarde">Miercoles 14:00 - 18:00</option>
+                            <option value="miercolesnoche">Miercoles 18:00 - 21:00</option>
+                            <option value="juevesmañana">Jueves 9:00 - 13:00</option>
+                            <option value="juevestarde">Jueves 14:00 - 18:00</option>
+                            <option value="juevesnoche">Jueves 18:00 - 21:00</option>>
+                            <option value="viernesmañana">Viernes 9:00 - 13:00</option>
+                            <option value="viernestarde">Viernes 14:00 - 18:00</option>
+                            <option value="viernesnoche">Viernes 18:00 - 21:00</option>
+                            <option value="sabadomañana">Sabado 9:00 - 13:00</option>
+                            <option value="sabadotarde">Sabado 14:00 - 18:00</option>
                
+                        </select>
+                        <p>Subtotal: $27,00.</p>
+                        <p>IVA: $3,24</p>
+                        <h2>TOTAL: $30,24</h2>
+                        <button class="botons"  onclick="registro();" type="button">ACEPTAR</button>
             </section>  
    
         </div>
+        <script src="dynamic.js"></script>
         
         <div class="item footer centro">
             Abraham Paladines - Jair Almeida &copy; 2022.
@@ -45,18 +71,7 @@
 
     </section>
     <script>
-        function horariod(s1,s2){
-            var s1= document.getElementById(s1);
-            var s2 = document.getElementById(s2);
-
-            s2.innerHTML = "";
-            if(s1.value == "lunes")
-            {
-                var optionArray = ['mañana|Mañana', 'tarde|Tarde',  'noche|Noche'];
-            }else if(s1.value == martes){
-
-            }
-        }
+        
     </script>
 </body>
 </html>
