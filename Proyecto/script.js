@@ -72,7 +72,7 @@ function registro(){
     emailInput.value = '';
     domicilioInput.value = '';
     alert('registro exitoso');
-    window.location.replace('servicios.html');
+    window.location.replace('PaginaServicios.html');
 }
 
 
