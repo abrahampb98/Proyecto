@@ -1,0 +1,48 @@
+body{
+    background-color:#50EB7A;
+   }
+   .footer {
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       grid-area: footer;
+       background-color: #A167EB;
+       color: black;
+       margin: -10px;
+       font-size: large;
+     }
+     a{
+       text-decoration: none;
+       color: white;
+       font-weight: 700;
+       font-size: large;
+       
+     }
+     .header {
+       padding: 1px;
+       grid-area: header;
+       background-color: #269E46;
+       color: white;
+       margin: 3px;
+       text-align: center;
+       position: center;
+     }
+     .linksa{
+     align-items: center;
+     right: 0;
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     cursor: pointer;
+     padding: 20px;
+     transition: all 0.3s ease 0s;
+     margin-top: -40px;
+     position: center;
+     }
+     li:hover{
+       background-color:#EB9F38;
+     }
+
+
+    
+          
