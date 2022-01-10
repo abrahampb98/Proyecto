@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ 
+.container {
+    display: grid;
+    grid-template: 40px 1fr 50px / 1fr;
+    grid-template-areas: "header" "content" "footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+
+.centro {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.header {
+  padding: 20px;
+  grid-area: header;
+  background-color: #50EB7A;
+  color: white;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+.content {
+    background-image: url(depilacion3.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: content;
+    
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+    grid-area: footer;
+    background-color: #50EB7A;
+    color: white;
+}
+
+.body{
+    background-color:rgb(3, 80, 94) ;
+}
+/* PRUEBA */
+.form-register {
+    width: 400px;
+    background: rgb(24, 196, 101);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1fb2c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .boton{
+      width: 10%;
+      background: #1fb2c5;
+      border: none;
+      padding: 12px;
+      color: white;
+      margin: 16px 0;
+      font-size: 16px;
+      position: relative;
+      top: 45%;
+      left: 45%;
+      cursor: pointer;
+  
+  }
+  
+  figure{
+    border: 1px solid transparent;
+    margin: 25px;
+    display: inline-block;
+    position: relative;
+    
+  
+  }
+   figure img{
+    margin-top: 150px;
+    width: 450px;
+    height: 250px;
+    }
+  
+  figcaption{
+    color: white;
+    display: none;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 3%;
+  }
+  
+  figure:hover figcaption{
+    display: block;
+  }
+  
+  iframe{
+    margin: 50px;
+  }
+  
+  .logo{
+    margin-left: 50px;
+  }
+  .cont-ul{
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -35px;
+    position: absolute;
+  
+  }
+
+    
+          
