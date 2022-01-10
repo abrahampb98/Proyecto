@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ 
+.container {
+    display: grid;
+    grid-template: 40px 1fr 50px / 1fr;
+    grid-template-areas: "header" "content" "footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+
+.centro {
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.header {
+  padding: 20px;
+  grid-area: header;
+  background-color: #50EB7A;
+  color: white;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+.content {
+    background-image: url(masajes2.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: content;
+    
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+    grid-area: footer;
+    background-color: #50EB7A;
+    color: white;
+}
+
+.body{
+    background-color:rgb(3, 80, 94) ;
+}
+li:hover{
+    background-color:#EB9F38;
+  }
