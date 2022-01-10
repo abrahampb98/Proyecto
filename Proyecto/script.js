@@ -89,16 +89,6 @@ function iniciarMap(){
     });
 }
 
-function iniciarMapSur(){
-    let coord = {lat:-2.2201494 ,lng: -79.8866849};
-    let map = new google.maps.Map(document.getElementById('mapSur'),{
-      zoom: 10,
-      center: coord
-    });
-    let marker1 = new google.maps.Marker({
-      position: coord,
-      mapSur: map
-    });
-}
+
 
     
