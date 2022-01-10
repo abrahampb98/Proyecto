@@ -33,13 +33,10 @@ function registro(){
     //falsy truly values
     localStorage.setItem('customerList',JSON.stringify(customerList));
     //clear inputs
-    nombreInput.value = '';
-    apellidoInput.value = '';
-    idInput.value = '';
-    telefonoInput.value = '';
-    emailInput.value = '';
-    domicilioInput.value = '';
-    alert('registro exitoso');
+    sucursalInput.value = '';
+    diaInput.value = '';
+  
+    alert('Se ha reservado de manera exitosa. Gracias por su preferencia.');
     window.location.replace('PaginaServicios.html');
 }
 
