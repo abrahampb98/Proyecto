@@ -25,12 +25,8 @@ function registro(){
     let customerList = JSON.parse(localStorage.getItem('customerList') || '[]');
     //customer
     let newCustomer = {
-        nombre:nombre,
-        apellido:apellido,
-        cedula:id,
-        telefono:telefono,
-        email:email,
-        domicilio:domicilio
+       sucursal:sucursal,
+       dia:dia
     };
     //push
     customerList.push(newCustomer);
