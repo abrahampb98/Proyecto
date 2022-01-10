@@ -1,0 +1,41 @@
+body{
+ background-color:rgb(71, 182, 121);
+}
+.footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    background-color: rgb(49, 231, 131);
+    color: white;
+    margin: -8px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+  }
+  .header {
+    padding: 1px;
+    grid-area: header;
+    background-color: rgb(26, 126, 71);
+    color: white;
+    margin: -8px;
+    text-align: center;
+  }
+  .linksa{
+  align-items: center;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  padding: 20px;
+  transition: all 0.3s ease 0s;
+  margin-top: -40px;
+  position: center;
+  }
+  li:hover{
+    background-color:#dd391c ;
+  }
